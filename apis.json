@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Bureau of Economic Analysis",
+	"description": "This is a repository of bureau of economic analysis APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/bureau-of-economic-analysis.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://bureau-of-economic-analysis.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Bureau of Economic Analysis",
+			"x-api-slug": "bureau-of-economic-analysis",
+			"description": "Official Bureau of Economic Analysis website. Source of US economic statistics including national income and product accounts (NIPAs), gross domestic product (GDP) and related measures of national, regional, industry and international accounts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11179-bureau-of-economic-analysis.jpg",
+			"humanURL": "http://www.bea.gov",
+			"baseURL": "://www.bea.gov/api/data?&UserID=Your-36CharacterKey&method=getparameterlist&datasetname=RegionalData&//api/",
+			"tags": "Bureau of Economic Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bureau-of-economic-analysis/master/_listings/bureau-of-economic-analysis/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Bureau of Economic Analysis",
+	"include": [
+		{
+			"name": "Bureau of Economic Analysis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bureau-of-economic-analysis/master/_listings/bureau-of-economic-analysis/apis.yaml"
+		}
+	]
+}
